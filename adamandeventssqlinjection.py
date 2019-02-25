@@ -2,6 +2,9 @@ import requests
 
 # Database version: 3.8.10.2
 
+def not_implemented( ):
+    print("This function is not implemented yet")
+
 def get_version_string():
     print("[*] Getting DBMS version number")
     alph = "1234567890."
