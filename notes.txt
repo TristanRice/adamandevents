@@ -1,0 +1,10 @@
+Some more notes on the issue
+
+' OR '' || '1' || '' OR '
+
+^^ explained
+
+string concatenation with one and 2 empty strings means that this is just ' OR '1' OR '. HOwever, the string concatenatino is needed because 
+
+
+' OR%20 '1' AND (SELECT coalesce((select glob('3*', (select sqlite_master()))),'1') ) OR '
